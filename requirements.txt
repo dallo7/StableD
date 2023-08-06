@@ -1,5 +1,5 @@
 Flask
 gunicorn
 googletrans==4.0.0rc1
-Pillow==10.0.0
+Pillow
 Requests==2.31.0
