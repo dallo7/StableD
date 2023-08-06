@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <title>Landing Page</title>
+    <style>
+    img {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">ML and AI Starter Projects Loading...</div>
+        <span class="sideMenuButton"
+            onclick="openNavbar()">
+            ☰
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="contact" id="contact" style="height: 512px; width: 512px; margin-left:40px; margin-right:40px; border-radius: 50%; border: 20px; solid #FEDE00;">
+        <div class="content">
+            <div class="contactMenu">
+                <div class="container">
+                <div class="center">
+                    <img src= "{{ url_for('static', filename='image.jpg') }}" />
+                </div>
+                </div>
+            </div>
+        </div>
+    </section><br><br>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Brought to you by ML and AI Projects, Created By
+                <a href="https://www.linkedin.com/in/dalmas-chituyi-36a456237/"><em><b style="background-color:powderblue;">Chituyi</b></em></a>
+            </span>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
