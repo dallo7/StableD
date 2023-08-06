@@ -1,6 +1,4 @@
 Flask==2.3.2
-googletrans==3.0.0
 googletrans==4.0.0rc1
-Pillow==9.5.0
 Pillow==10.0.0
 Requests==2.31.0
